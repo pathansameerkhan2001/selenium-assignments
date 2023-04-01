@@ -17,7 +17,7 @@ public class fbtest {
 		ChromeDriver driver = new ChromeDriver(chromeOptions);
 		System.out.println("Hi,welcome to selenium testcases");
 		
-		driver.get("https://www.facebook.com/login.php/");
+		driver.get("https:32.54.45.12:8085/addressbook");
 		driver.manage().timeouts().implicitlyWait(3,TimeUnit.SECONDS);
 		driver.findElement(By.className("v-button")).click();
 		driver.findElement(By.id("gwt-uid-5")).sendKeys("sameer khan");
